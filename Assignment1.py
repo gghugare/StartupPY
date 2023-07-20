@@ -1,0 +1,10 @@
+name = str(input("Enter your Name"))
+roll = int(input("Enter your Roll Number"))
+Class = int(input("Enter your Standard"))
+Java = int(input("Enter your JAVA Marks"))
+C = int(input("Enter your C++ Marks"))
+PYTHON = int(input("Enter your PYTHON Marks"))
+RUBY = int(input("Enter your RUBY Marks"))
+SQL = int(input("Enter your SQL Marks"))
+
+print("My name is : ",name)
