@@ -15,5 +15,20 @@ print("Current month : ",CurrentMonth2)
 print("Current day is : ",CurrentDay2)
 
 print(CurrentYear2-Year1, 'year')
-print(CurrentMonth2-Month1, 'month')
-print(CurrentDay2-Day1, 'day')
+
+sum = CurrentMonth2-Month1
+sum1 = (12-Month1)+(CurrentMonth2)
+sum2 = Day1-CurrentDay2
+sum3 = ((31-Day1)+CurrentDay2)
+
+if Month1<CurrentMonth2:
+   print(sum,'months')
+else : 
+    Month1>CurrentMonth2
+    print(sum1,'months')
+
+if Day1<CurrentDay2:
+   print(sum2,'days')
+else : 
+    Day1>CurrentDay2
+    print(sum3,'days')
