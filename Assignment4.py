@@ -72,12 +72,11 @@ for n in same :
 
 
 
-    '''Write a Program to Reverse a Number
+'''Write a Program to Reverse a Number
 
    Enter Number : 4569
    Reverse Number : 9654 '''
     
-
 
 
 
