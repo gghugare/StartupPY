@@ -33,49 +33,73 @@
    Select Answer 2 ... con..'''
 
 pas = str(input('Create Your Password : '))
-corr = str(input('Enter the Password : '))
+Name = str(input('Enter the Password : '))
 
-if pas == corr:
-    print(" 1. Who invented Java Programming? /n 1. ) Guido van Rossum /n 2. ) James Gosling /n 3. ) Dennis Ritchie /n 4. ) Bjarne Stroustrup")
+if pas == Name:
+    print(" 1. Who invented Java Programming? \n 1.  Guido van Rossum \n 2.  James Gosling \n 3.  Dennis Ritchie \n 4.  Bjarne Stroustrup")
     answer0 = int(input('Select Answer  only number - '))
     if answer0 == 2:
-        print(' 2. Which component is used to compile, debug and execute the java programs? /n 1. ) JRE /n 2. ) JIT /n 3. ) JDK /n 4. ) JVM')
+        print(' 2. Which component is used to compile, debug and execute the java programs? \n 1.  JRE \n 2.  JIT \n 3.  JDK \n 4.  JVM')
         answer1 = int(input('Select Answer  only number - '))
         if answer1 == 2:
              print('Your Result is pass')
         else:
-            answer0 != 2
+            answer1 != 2
             print("Come Next Year")
     else:
         answer0 != 2
         print("Come Next Year")
-elif   pas == corr:
-        print(" 1. Who invented Java Programming? /n 1. ) Guido van Rossum /n 2. ) James Gosling /n 3. ) Dennis Ritchie /n 4. ) Bjarne Stroustrup")
+elif pas != Name:
+    print("Incorrect Try Again (2)")
+    Name = str(input('Enter the Password : '))
+    if  pas == Name:
+        print(" 1. Who invented Java Programming? \n 1.  Guido van Rossum \n 2.  James Gosling \n 3.  Dennis Ritchie \n 4.  Bjarne Stroustrup")
         answer0 = int(input('Select Answer  only number - '))
-        if answer0 ==  2 :
-            print(' 2. Which component is used to compile, debug and execute the java programs? /n 1. ) JRE /n 2. ) JIT /n 3. ) JDK /n 4. ) JVM')
-            if answer1 == 2:
-                    print('Your Result is pass')
+        if answer0 == 2:
+                print(' 2. Which component is used to compile, debug and execute the java programs? \n 1.  JRE \n 2.  JIT \n 3.  JDK \n 4.  JVM')
+                answer1 = int(input('Select Answer  only number - '))
+                if answer1 == 2:
+                   print('Your Result is pass')
+                else:
+                    answer1 != 2
+                    print("Come Next Year")
         else:
-             pas != corr
-             print("Try Again (2)")
-elif   pas == corr:
-        print(" 1. Who invented Java Programming? /n 1. ) Guido van Rossum /n 2. ) James Gosling /n 3. ) Dennis Ritchie /n 4. ) Bjarne Stroustrup")
+             answer0 != 2
+             print("Come Next Year")
+elif pas != Name:
+    print("Incorrect Try Again (1)")
+    Name = str(input('Enter the Password : '))
+    if  pas == Name:
+        print(" 1. Who invented Java Programming? \n 1.  Guido van Rossum \n 2.  James Gosling \n 3.  Dennis Ritchie \n 4.  Bjarne Stroustrup")
         answer0 = int(input('Select Answer  only number - '))
-        if answer0 ==  2 :
-            print(' 2. Which component is used to compile, debug and execute the java programs? /n 1. ) JRE /n 2. ) JIT /n 3. ) JDK /n 4. ) JVM')
-            if answer1 == 2:
-                    print('Your Result is pass')
+        if answer0 == 2:
+                print(' 2. Which component is used to compile, debug and execute the java programs? \n 1.  JRE \n 2.  JIT \n 3.  JDK \n 4.  JVM')
+                answer1 = int(input('Select Answer  only number - '))
+                if answer1 == 2:
+                   print('Your Result is pass')
+                else:
+                    answer1 != 2
+                    print("Come Next Year")
         else:
-             pas != corr
-             print("Try Again (1)")
-elif   pas == corr:
-        print(" 1. Who invented Java Programming? /n 1. ) Guido van Rossum /n 2. ) James Gosling /n 3. ) Dennis Ritchie /n 4. ) Bjarne Stroustrup")
+             answer0 != 2
+             print("Come Next Year")
+elif pas != Name:
+    print("Incorrect Try Again (0)")
+    Name = str(input('Enter the Password : '))
+    if  pas == Name:
+        print(" 1. Who invented Java Programming? \n 1.  Guido van Rossum \n 2.  James Gosling \n 3.  Dennis Ritchie \n 4.  Bjarne Stroustrup")
         answer0 = int(input('Select Answer  only number - '))
-        if answer0 ==  2 :
-            print(' 2. Which component is used to compile, debug and execute the java programs? /n 1. ) JRE /n 2. ) JIT /n 3. ) JDK /n 4. ) JVM')
-            if answer1 == 2:
-                    print('Your Result is pass')
+        if answer0 == 2:
+                print(' 2. Which component is used to compile, debug and execute the java programs? \n 1.  JRE \n 2.  JIT \n 3.  JDK \n 4.  JVM')
+                answer1 = int(input('Select Answer  only number - '))
+                if answer1 == 2:
+                   print('Your Result is pass')
+                else:
+                    answer1 != 2
+                    print("Come Next Year")
         else:
-             pas != corr
-             print("Come Next Year")        
+             answer0 != 2
+             print("Come Next Year")
+else:
+     pas != Name
+     print("Come Next Year")
