@@ -1,41 +1,11 @@
-''' Set your password :
-   p4n@in
-   Enter your Password : 
-   p4n
-   wrong password ... try 2 more time out of 2
-   p4n@
-   wrong password ... try 1 more time 1
-   p4n@34
-   wrong password ... try 0 more time 0
-   note : user select right password
-   then start MCQ EXAM...
-   
-    
-   1. Who invented Java Programming?
-   1. ) Guido van Rossum
-   2. ) James Gosling
-   3. ) Dennis Ritchie
-   4. ) Bjarne Stroustrup
-   
-   Select Answer 2
-   
-   wrong answer [ Try Next year ] 
-   
-   Note :if select Right Answer 
-   ask 2nd Question ...
-   
-   2. Which component is used to compile, debug and execute the java programs?
-   1. ) JRE
-   2. ) JIT
-   3. ) JDK
-   4. ) JVM
-   
-   Select Answer 2 ... con..'''
+"""Example :  Data [ 10 , 2 , 4 , 5 , 7 , 8 , 9 , 5 ]
 
-pas = str(input('Create Your Password : '))
-Name = str(input('Enter the Password : '))
+Second largest number = 9"""
 
-if pas == Name:
-    print(" 1. Who invented Java Programming? \n 1.  Guido van Rossum \n 2.  James Gosling \n 3.  Dennis Ritchie \n 4.  Bjarne Stroustrup")
-    answer0 = int(input('Select Answer  only number - '))
-    
+Data = [ 10 , 2 , 4 , 5 , 7 , 8 , 9 , 5 ]
+Data.sort()
+print("Second largest element is:", sorted(Data)[-2])
+
+
+
+
